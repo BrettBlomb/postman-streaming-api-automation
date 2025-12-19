@@ -1,0 +1,10 @@
+{
+  "name": "postman-streaming-api-automation",
+  "scripts": {
+    "test": "newman run collections/playback-api.postman_collection.json -e environments/streaming-dev.postman_environment.json"
+  },
+  "devDependencies": {
+    "newman": "^6.0.0",
+    "newman-reporter-htmlextra": "^1.23.1"
+  }
+}
